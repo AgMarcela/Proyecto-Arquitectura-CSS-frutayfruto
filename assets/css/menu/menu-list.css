@@ -1,0 +1,8 @@
+/* Estilos de la barra de navegación */
+
+.menu__lista{
+    display: flex;
+    flex-direction: row; /*Por defecto el nav me ubica como una columna, al colocarle flex, me la pasa a fila */
+    gap: 1rem;
+    font-weight: 400;
+    }

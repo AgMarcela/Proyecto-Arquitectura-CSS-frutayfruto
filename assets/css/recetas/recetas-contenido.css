@@ -1,0 +1,36 @@
+.recetas__container{
+    background: #fdfdfdfd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px rgba(54, 54, 54, 0.75);
+
+} 
+
+.recetas__contenido{
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 0) {
+    .recetas__container{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .recetas__container{
+        width: 22%;
+        height: 50%;
+        gap: .5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .recetas__container{
+        width: 27%;
+        height: 50%;
+        gap: 1rem;
+    }
+}

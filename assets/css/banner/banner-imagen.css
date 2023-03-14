@@ -1,0 +1,22 @@
+
+    /* background-size: cover; esta propiedad para que background ocupe todo ancho  */
+
+@media (min-width: 320px) {
+    .banner__imagen {
+        background-size: cover;
+       
+    }
+}
+
+@media (min-width: 768px) {
+    .banner__imagen{
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner__imagen{
+       width: 100%;
+    }
+}
+

@@ -1,0 +1,4 @@
+.menu__item{
+    list-style: none; 
+     /*Por defecto las listas traen una viñeta, con ese estilo se la quito*/
+}

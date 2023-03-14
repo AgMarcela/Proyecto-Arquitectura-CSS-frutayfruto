@@ -1,0 +1,18 @@
+.sobre__descripción{
+    color: #8c8888;
+   
+    font-weight: 200;
+}
+
+@media screen and (min-width: 0) {
+    .sobre__descripción{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__descripción{
+        font-size: 1.75rem;
+    }
+}

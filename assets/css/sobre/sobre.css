@@ -1,0 +1,23 @@
+.sobre{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+
+@media screen and (min-width: 0) {
+    .sobre{
+        gap: 1rem;
+        padding: 2.5rem 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .sobre{
+        gap: 1.5rem;
+    }
+}

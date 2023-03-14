@@ -1,0 +1,15 @@
+.recetas{
+    background: #dab997;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center; 
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+

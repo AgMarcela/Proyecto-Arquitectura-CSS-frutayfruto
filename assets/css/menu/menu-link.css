@@ -1,0 +1,20 @@
+@media (min-width: 320px){
+    .menu__link{
+        text-decoration: none;
+        color: #808080;
+    
+      
+    }  
+    
+    .menu__link:hover{
+        text-decoration: underline;
+        
+        
+    }
+    .menu__link.activo{
+        color: #333333;
+        /* font-weight: 500; */
+        text-decoration: none;
+    }
+     
+}
